@@ -2,18 +2,17 @@ import { Dialog } from "@mui/material";
 import { useState } from "react";
 
 interface ImageModalProps {
-  height: number;
-  index: number;
+  src: string;
 }
 
-function ImageModal({ height, index }: ImageModalProps) {
+function ImageModal({ src }: ImageModalProps) {
   const [open, setOpen] = useState(false);
 
   return (
-    <div key={index}>
+    <div>
       <img
         className="cursor-pointer"
-        src={`https://picsum.photos/id/${10 + index}/${height}/300`}
+        src={src}
         onClick={() => setOpen(true)}
       />
       <Dialog
@@ -23,7 +22,7 @@ function ImageModal({ height, index }: ImageModalProps) {
       >
         <img
           className="cursor-default"
-          src={`https://picsum.photos/id/${10 + index}/${height}/300`}
+          src={src}
         />
       </Dialog>
     </div>
