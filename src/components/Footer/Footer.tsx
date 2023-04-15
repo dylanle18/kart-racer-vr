@@ -2,7 +2,7 @@ function Footer() {
   return (
     <div className="flex flex-col justify-center items-center py-4 bg-black text-sm w-full text-white absolute bottom-0">
       <p className="font-bold">Made with ❤️</p>
-      <p>© 2023 Dylan Le, Igor Goncalves Penedoss</p>
+      <p>© 2023 Dylan Le, Igor Goncalves Penedos</p>
 
       <p className="font-bold mt-4">LinkedIn</p>
       <div className="flex gap-4">

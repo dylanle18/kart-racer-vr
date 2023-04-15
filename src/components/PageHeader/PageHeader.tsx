@@ -26,7 +26,7 @@ function PageHeader() {
           Toronto Metropolitan University, Department of Computer Science
         </p>
         <p className="font-medium text-lg">
-          CPS643 Virtual Reality &nbsp;•&nbsp; Dylan Le, Igor Goncalves Penedoss
+          CPS643 Virtual Reality &nbsp;•&nbsp; Dylan Le, Igor Goncalves Penedos
         </p>
       </div>
       <div className="md:absolute top-0 right-0 md:w-1/2 w-full">
